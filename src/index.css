@@ -1,0 +1,58 @@
+h1, h2, h3, h4, h5, h6 {
+  text-align: center;
+  width: 85%;
+  max-width: 1200px;
+  margin: 0.5em auto;
+}
+
+ul, ol {
+  width: 800px;
+  margin: 0 auto;
+}
+
+li {
+  margin: 0.25em 0;
+}
+
+.prism-code {
+  padding: 1em 0.75em;
+  width: 80%; 
+  max-width: 1200px;
+  margin: 0 auto;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+  white-space: pre-wrap;
+}
+
+.prism-code ::selection {
+  background: rgba(27, 57, 253, 0.74);
+}
+
+.prism-code .token-line:last-child {
+  height: 0;
+}
+
+.terminalCommand {
+  background: #111;
+  color: #dedede;
+  padding: 1em 0.75em;
+  width: 80%; 
+  max-width: 1200px;
+  margin: 0 auto;
+  white-space: normal !important;
+  word-break: break-word !important;
+}
+
+.responsiveImage {
+  width: 85%;
+  max-width: 1200px;
+  height: auto;
+}
+
+
+.frame {
+  width: 90%;
+  max-width: 1200px;
+  height: 90%;
+}
+
